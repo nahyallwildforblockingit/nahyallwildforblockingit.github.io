@@ -1,0 +1,38 @@
+body {
+    background-color: #111111;
+}
+
+.oneday {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    opacity: 30%;
+}
+
+.imahaveitoneday {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+}
+
+.wegonnagetitoneday {
+    color: #ffffff;
+    font-family: 'Consolas', Courier, monospace, sans-serif;
+    font-size: 3vw;
+    text-align: center;
+    text-wrap: nowrap;
+    text-shadow: #000 0 0 30px;
+}
+
+.someday {
+    position: absolute;
+    width: 50%;
+    object-fit: contain;
+    left: 50%;
+    -ms-transform: translateX(-50%) translateY(0);
+    -webkit-transform: translate(-50%,0);
+    transform: translate(-50%,0);
+}
